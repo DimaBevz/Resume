@@ -1,0 +1,155 @@
+body {
+    background-color: #d7dffd;
+    font-family: 'Ubuntu';
+    letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 1px solid #ccc
+}
+
+.left-side {
+  width: 420px;
+  background-color: #1e2939;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.right-side {
+  width: 830px;
+  padding-left: 40px;
+  padding-right: 200px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.photo {
+  width: 250px;
+  border: 20px solid #1e2939;
+}
+
+.bio-title {
+    font-size: 45px;
+    line-height: 2;
+  
+  }
+  
+  .bio-occupation {
+  
+  }
+  
+  .bio-title ,
+  .bio-occupation {
+    color: #2a2a2a;
+  }
+  
+  .bio-occupation,
+  .bio-about {
+    font-size: 14px;
+    line-height: 1.714;
+  }
+  
+  .bio-about {
+    color: #595959;
+  }
+
+  .contacts-link {
+    color: #595959;
+    text-decoration: none;
+  }
+
+  .projects-title {
+    margin-bottom: 14px;
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height: 1.091;
+  }
+  
+  .projects-link {
+    color: #595959;
+    font-size: 14px;
+    line-height: 1.714;
+    text-decoration: none;
+  }
+  .projects-link:hover {
+    color: #ada2a2;
+  }
+
+  .jobs-title {
+    color: #2a2a2a;
+    font-size: 22px;
+    line-height: 1.091;
+    margin-bottom: 26px;
+  }
+  
+  .jobs-occupation {
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .jobs-time {
+    color: #828282;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 18px;
+  }
+
+  .education-time {
+    color: #828282;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 18px;
+  }
+  
+  .experience-item {
+    color: #595959;
+    font-size: 14px;
+    line-height: 1.714;
+    margin-bottom: 10px;
+  }
+  
+  .accent {
+    color: #d15d2f;
+  }
+
+  .contacts-title {
+    font-size: 22px;
+    line-height: 1.091;
+}
+
+.contacts-item {
+    font-size: 14px;
+    line-height: 1.714;
+}
+
+.contacts-link {
+    color: #fff;
+    opacity: 0.6;
+  }
+
+  .skills-title {
+    font-size: 22px;
+    line-height: 1.091;
+  }
+  
+  .skills-item {
+    font-size: 14px;
+    line-height: 1.714;
+  }
+
+.photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;
+}
+
+
+.contacts, .skills {
+    padding-left: 40px;
+}
